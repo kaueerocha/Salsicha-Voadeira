@@ -17,6 +17,8 @@ int main( int argc, char* args[] )
 	//The surface contained by the window
 	SDL_Surface* screenSurface = NULL;
 
+    printf("HELLO");
+
 	//Initialize SDL
 	if( SDL_Init( SDL_INIT_VIDEO ) < 0 )
 	{
