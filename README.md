@@ -1,6 +1,6 @@
 # Salsicha-Voadeira
 
-Flyer Salsage is a game developed by Kauee Rocha, Pedro Augusto PHS, Lucas Rossato & Gabriel Messas.
+Flying Salsage is a game developed by Kauee Rocha, Pedro Augusto PHS, Lucas Rossato & Gabriel Messas.
 This game was made using SDL 1.2 and C
 To run this game, you will need:
 -linux O.S. 
