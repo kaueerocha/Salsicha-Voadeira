@@ -30,4 +30,4 @@ enter on Cmd:
 
 > gcc -o salsicha "fileName".c -lSDL -lSDLmain -lSDL_image -lSDL_ttf -lSDL_mixer
 
-./salsicha
+> ./salsicha
