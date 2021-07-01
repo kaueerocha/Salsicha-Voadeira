@@ -18,12 +18,16 @@ To run this game, you will need:
 
 -Dowload this archives;
 
+You can install SDL library running this on Cmd:
+
+> apt-get install libsdl1.2-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev
+
 Then ....
 
 enter on Cmd:
 
-cd Downloads/Salsicha-Voadeira
+> cd <files location> 
 
-make salsicha
+> gcc -o salsicha <filename>.c -lSDL -lSDLmain -lSDL_image -lSDL_ttf -lSDL_mixer
 
 ./salsicha
