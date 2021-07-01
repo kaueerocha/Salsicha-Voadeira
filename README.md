@@ -26,8 +26,8 @@ Then ....
 
 enter on Cmd:
 
-> cd <files location> 
+> cd "files location" 
 
-> gcc -o salsicha <filename>.c -lSDL -lSDLmain -lSDL_image -lSDL_ttf -lSDL_mixer
+> gcc -o salsicha "fileName".c -lSDL -lSDLmain -lSDL_image -lSDL_ttf -lSDL_mixer
 
 ./salsicha
