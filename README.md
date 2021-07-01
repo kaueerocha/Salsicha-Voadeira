@@ -1,6 +1,6 @@
-# Salsicha-Voadeira
+# Sausage vs burguer
 
-Flying Salsage is a game developed by Kauee Rocha, Pedro Augusto PHS, Lucas Rossato & Gabriel Messas.
+Sausage vs burguer is a game developed by Kauee Rocha, Pedro Augusto PHS, Lucas Rossato & Gabriel Messas.
 
 This game was made using SDL 1.2 and C
 
