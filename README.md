@@ -16,7 +16,7 @@ To run this game, you will need:
 
 -Install SDL-TTF
 
--Dowload this archives;
+-Download this archives;
 
 You can install SDL library running this on Cmd:
 
