@@ -1102,7 +1102,8 @@ int main()
       SDL_Delay(34);
     }
 
-     while (done == 2) // Loop do menu ranking
+    //LOOP DO RANK
+    while (done == 2) 
     { 
       
       SDL_UpdateRect(screen, 0,0,0,0);
@@ -1208,7 +1209,6 @@ int main()
     }
 
     //LOOP DAS OPÇÕES
-
     while(done == 3){
       
       SDL_BlitSurface(imageMENU,NULL,screen, NULL);
