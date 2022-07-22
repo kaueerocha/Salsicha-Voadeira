@@ -1,33 +1,25 @@
-# Sausage vs burguer
+# Sausage vs Burguer
 
-Sausage vs burguer is a game developed by Kauee Rocha, Pedro Augusto PHS, Lucas Rossato & Gabriel Messas.
+Sausage vs Burguer is a game developed by Gabriel Messas, Kauee Rocha, Pedro Augusto PHS & Lucas Rossato.
 
-This game was made using SDL 1.2 and C
+This game was 100% built in C language, using the SDL 1.2 library.
 
-To run this game, you will need:
+To run this game, you will need to have a few dependencies:
 
--linux O.S. 
+- gcc
+- SDL-1.2
+- SDL-Image
+- SDL-Mixer
+- SDL-TTF
 
--Install SDL-1.2
+On Linux, for instance, you can install them by running:
 
--Install SDL-Image
+> apt-get install build-essential libsdl1.2-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev
 
--Install SDL-Mixer
+Then, download this repository and proceed to the commands:
 
--Install SDL-TTF
+> cd _**GAME_FOLDER**_
 
--Download this archives;
+> gcc -o _**EXECUTABLE_NAME**_ SalsichaVoadeiraULTIMATE.c -lSDL -lSDLmain -lSDL_image -lSDL_ttf -lSDL_mixer
 
-You can install SDL library running this on Cmd:
-
-> apt-get install libsdl1.2-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev
-
-Then ....
-
-enter on Cmd:
-
-> cd "files location" 
-
-> gcc -o salsicha "fileName".c -lSDL -lSDLmain -lSDL_image -lSDL_ttf -lSDL_mixer
-
-> ./salsicha
+> ./_**EXECUTABLE_NAME**_
