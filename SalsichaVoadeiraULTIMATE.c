@@ -751,11 +751,11 @@ int main()
             case SDLK_a:
               velX = -10;
               break;
-            case SDLK_e:
+            case SDLK_SPACE:
               tiro = true;
               indo = true;
               break;
-            case SDLK_SPACE:
+            case SDLK_w:
               voo = true;
               velY = -30;
               break;
@@ -775,11 +775,11 @@ int main()
               case SDLK_a:
                 velX = 0;
                 break;
-              case SDLK_SPACE:
+              case SDLK_w:
                 voo = false;
                 velY = 10;
                 break;
-              case SDLK_e:
+              case SDLK_SPACE:
                 tiro = false;
                 break;
               default:
