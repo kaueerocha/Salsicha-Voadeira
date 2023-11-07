@@ -1,7 +1,6 @@
 # Sausage vs Burguer
 
-Sausage vs Burguer is a game developed by Gabriel Messas, Kauee Rocha, Pedro Augusto PHS & Lucas Rossato.
-
+Sausage vs Burguer is a game developed by Gabriel Messas, Kauee Rocha and Pedro Augusto PHS.
 This game was 100% built in C language, using the SDL 1.2 library.
 
 To run this game, you will need to have a few dependencies:
